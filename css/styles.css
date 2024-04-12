@@ -15,7 +15,7 @@ h1,h2,h3
     text-transform: uppercase;
 }
 
-li {
+ul {
     list-style: none;
 }
 
@@ -28,3 +28,8 @@ a {
 
 .recipe-link {
     color:rgba(0, 0, 190, 0.8);
+}
+
+#copy-text {
+    font-size: 14px;
+}
