@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-*::before,
-*::after {
+::before,
+::after {
     margin: 0px;
     padding: 0px;
 }
@@ -80,10 +80,14 @@ a {
     vertical-align: top;
 }
 
-.recipe-link {
+.recipe-intro .recipe-link {
     color:rgba(0, 0, 190, 0.8);
     vertical-align: bottom;
     padding-left: 20px;
+}
+
+footer {
+    margin: 100px 0px 40px 0px;
 }
 
 #copy-text {
