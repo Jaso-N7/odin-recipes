@@ -11,9 +11,13 @@
 }
 
 /*
-   Type Scale:
-   3.052rem / 1.953rem /  
-   p: 1rem
+   === TYPOGRAPHY ===
+   Type Scale: 1.250 Major scale p: 1rem
+
+   === COLOURS ===
+   Main: #F39C12
+   Grey: #063362
+   Background (like a plate): #ECF0F1
  */
 
 body{
@@ -22,8 +26,8 @@ body{
     /* line-height:1.6em; */
     font-size:16px;
     font-family: Verdana, sans-serif;
-    color:#444;
-    /* padding:0 10px; */
+    color: #063362;
+    background: #ECF0F1;
 }
 
 h2,h3
@@ -36,6 +40,7 @@ h2,h3
 header {
     margin: 40px auto;
     text-align: center;
+    font-family: serif;
     font-size: 3.052rem;
     line-height: 0.8;
     letter-spacing: -2px;
@@ -47,13 +52,6 @@ nav {
 
 ul {
     list-style: none;
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 0.8em;
 }
 
 .recipe-intro h3,
@@ -80,14 +78,30 @@ a {
     vertical-align: top;
 }
 
-.recipe-intro .recipe-link {
-    color:rgba(0, 0, 190, 0.8);
+.recipe-link:link,
+.recipe-link:visited {
+    background-color: #f39c12;
+    color: #063362;
     vertical-align: bottom;
-    padding-left: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    display: inline-block;
+    font-weight: 600;
+    
+    /*
+       font-size: 0.8em;
+     */
+}
+
+.recipe-link:hover,
+.recipe-link:active {
+    background-color: #ff922b;
 }
 
 footer {
-    margin: 100px 0px 40px 0px;
+    margin: 140px 0px 40px 0px;
 }
 
 #copy-text {
